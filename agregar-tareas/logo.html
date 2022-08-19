@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="nuevo.css">
+</head>
+<body>
+    <header>
+        <nav class="nav">
+            <div class="nav_conteiner">
+                <a href="index.html" class="nj">volver</a>
+                <img src="" alt="" class="pescado">
+                <a href="#" class="nav_logo"></a>
+                <label for="menu" class="nav_label">
+                    <button class="menu">&equiv;</button>
+                </label>
+                <input type="checkbox" id="menu" class="nav_input">
+                <div class="nav_menu">
+                    <a href="#" id="home">Inicio</a>
+                    <a href="#">Ingresar</a>
+                    <a href="#">Crear cuenta</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- aplications-->
+    <div class="container">
+        <div id="App">
+            <div class="App-dos">
+                <div class="App-tres">
+                    <div class="App-titulo">
+                        <h4>Add products</h4>
+                    </div>
+                    <form action="" id="product-form">
+                        <div class="form-grup">
+                            <input type="text" id="name" placeholder="Products name">
+                        </div>
+                        <div class="form-grup">
+                            <input type="number" step="0.01" name="" id="price" placeholder="Number" required>
+                        </div>
+                        <div class="form-grup">
+                            <input type="number" min="2000" max="2025" value="2022" name="" id="year" placeholder="Number">
+                        </div>
+                        <input type="submit" value="save" class="btn">
+                    </form>
+                </div>
+            </div>
+            <div id="product-list"></div>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
